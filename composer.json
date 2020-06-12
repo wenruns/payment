@@ -1,0 +1,32 @@
+{
+  "name": "wenruns/payment",
+  "description": "Collection of online payment functions",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "hww",
+      "email": "hww@8kqw.com"
+    }
+  ],
+  "require": {
+    "PHP": ">=7.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-0": {
+    },
+    "psr-4": {
+      "wenruns\\payment": "src"
+    },
+    "classmap": [],
+    "files": []
+  },
+  "autoload-dev": {
+    "psr-0": {
+    },
+    "psr-4": {
+    },
+    "classmap": [],
+    "files": []
+  }
+}
